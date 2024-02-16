@@ -3,33 +3,52 @@
     /* */
     display: flex;
     background-color: gray;
-    flex-wrap: nowrap;          /* item en una sola linea */
-    /* justify-content: space-around;     */
-    align-items:center;
+    flex-wrap:wrap;          /* item en una sola linea */
+    justify-content: center;    
+    width: 100%;
+    
+    /* align-items:center; */
+    /* align-content: center; */
+    
 }
-.flex-container > div{
+ /* .flex-container > div{
 
-    background-color: dodgerblue;
-    width: auto;    
-    margin: 1px;    
-    text-align: center;        
-}
+    background-color: rgb(112, 115, 117);
+    width: 100;    
+    margin: 5px;        
+    text-align: center;   
+    
+}  */
+
+.balda {
+    background-color: gray;
+    color: white;
+    text-align: center;    
+    margin: 1px;
+    font-size: 50px;    
+    padding: 10px;
+    align-self:center;
+  }
 
 .flex-subcolumna1{
     /* */
     display: flex;
     background-color: gray;
     flex-wrap: nowrap;          /* item en una sola linea */
+    width: 400;
+    
     
     /* justify-content: space-around;     */
     /* align-items:center; */
 }
 .flex-subcolumna1 > div{
-    background-color: rgba(165, 250, 144, 0.774);
+    background-color: rgba(149, 233, 138, 0.774);
     width: auto;    
     margin: 1px;
     padding: 30px;
     text-align: center;        
+    width: 200px;    
+    
 }
 
 .flex-subcolumna2{
@@ -42,11 +61,12 @@
     /* align-items:center; */
 }
 .flex-subcolumna2 > div{
-    background-color: rgba(92, 89, 240, 0.767);
+    background-color: rgba(89, 159, 240, 0.767);
     width: auto;    
     margin: 1px;
     padding: 30px;
-    text-align: center;        
+    text-align: center;     
+    width: 200px;       
 }
 
 .flex-subcolumna3{
@@ -64,6 +84,7 @@
     margin: 1px;
     padding: 30px;
     text-align: center;        
+    width: 200px;    
 }
 
 .flex-subcolumna4{
@@ -82,7 +103,6 @@
     padding: 30px;
     text-align: center;        
 }
-
 
 
 
