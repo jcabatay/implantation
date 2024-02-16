@@ -1,0 +1,7 @@
+header,.row{
+    display: flex;
+}
+
+.col{
+    flex: 2;
+}
