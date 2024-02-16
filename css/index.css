@@ -1,0 +1,88 @@
+
+.flex-container{
+    /* */
+    display: flex;
+    background-color: gray;
+    flex-wrap: nowrap;          /* item en una sola linea */
+    /* justify-content: space-around;     */
+    align-items:center;
+}
+.flex-container > div{
+
+    background-color: dodgerblue;
+    width: auto;    
+    margin: 1px;    
+    text-align: center;        
+}
+
+.flex-subcolumna1{
+    /* */
+    display: flex;
+    background-color: gray;
+    flex-wrap: nowrap;          /* item en una sola linea */
+    
+    /* justify-content: space-around;     */
+    /* align-items:center; */
+}
+.flex-subcolumna1 > div{
+    background-color: rgba(165, 250, 144, 0.774);
+    width: auto;    
+    margin: 1px;
+    padding: 30px;
+    text-align: center;        
+}
+
+.flex-subcolumna2{
+    /* */
+    display: flex;
+    background-color: gray;
+    flex-wrap: nowrap;          /* item en una sola linea */
+    
+    /* justify-content: space-around;     */
+    /* align-items:center; */
+}
+.flex-subcolumna2 > div{
+    background-color: rgba(92, 89, 240, 0.767);
+    width: auto;    
+    margin: 1px;
+    padding: 30px;
+    text-align: center;        
+}
+
+.flex-subcolumna3{
+    /* */
+    display: flex;
+    background-color: gray;
+    flex-wrap: nowrap;          /* item en una sola linea */
+    
+    /* justify-content: space-around;     */
+    /* align-items:center; */
+}
+.flex-subcolumna3 > div{
+    background-color: rgba(245, 108, 98, 0.801);
+    width: auto;    
+    margin: 1px;
+    padding: 30px;
+    text-align: center;        
+}
+
+.flex-subcolumna4{
+    /* */
+    display: flex;
+    background-color: gray;
+    flex-wrap: nowrap;          /* item en una sola linea */
+    
+    /* justify-content: space-around;     */
+    /* align-items:center; */
+}
+.flex-subcolumna4 > div{
+    background-color: rgba(210, 240, 140, 0.801);
+    width: auto;    
+    margin: 1px;
+    padding: 30px;
+    text-align: center;        
+}
+
+
+
+
