@@ -1,29 +1,128 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <h1>Index</h1>
-        
-        
-        <section>
-            <header>
-                <div class="col"> Familia</div>
-                <div class="col"> Mueble</div>
-                <div class="col"> Descripción</div>
-            </header>
-            <div class="row">
-            
-                <div class="col">Alimentación</div>
-                <div class="col"><a href="3048.html">3048</a></div>
-                <div class="col">Ofertas Alimentación Zona Tabaco</div>
-            
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/japan.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
 
-            </div>
+    <title>Home</title>
 
-        </section>
-        
-    </body>
+    <style>	
+
+      .html-elements{			
+        color: blue;
+        font-size: 16px;
+        /* google font: Cairo */						
+        font-family: Cairo, monospace; 
+        text-align: justify;
+        border-width: 1px;			
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;			
+        width: 500px;
+        border-radius: 5px;
+      }
+      
+      .smaller-image{
+        width: 80px;		
+      }
+      
+      .index-image{        
+        width: 260px;		
+        height: 138px;        
+      }
+
+      .thick-green-border{
+        border-color: white;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 50%;
+      }
+      
+      .card {
+        border: 0;
+        border-radius: 0;
+        color: #fff;
+        height:100%;
+        object-fit:cover; /* contain or cover */
+        box-shadow: 5px 5px 10px #e1e1e1;
+        padding: 2em 0;
+        border-bottom-right-radius: 4em;
+        border-top-left-radius: 4em;
+        /* background: linear-gradient(to left, teal 50%, #26282b 50%); */
+        /* background-size: 200%; */
+        /* background-position: right; */
+        transition: background-position 0.5s ease-out;
+      }
+           
+      #thumbnail{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+    </style>
+
+  </head>
+  <body class="p-3 mt-4 border-0 ">
+    <!-- menu -->
+    <nav class="navbar bg-light fixed-top">
+      <div class="container">        
+        <p class="card-text fs-6 fw-light text-body text-muted">ascii274 <br> Java Developer</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            
+            <small class="offcanvas-title text-muted fw-light text-body" id="offcanvasNavbarLabel">Updated: 17/02/202</small>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./alimentacion.html">Alimentación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bebida.html">Bebida</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+    <!-- presentation -->    
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-10">
+          <p class="text-align fs-1 text-primary">
+            Shelves implantation
+            
+          </p>
+          <p id="about" class="text-align fs-4">     
+            
+            
+          </p>
+        </div>        
+      </div>
+    </div>
+ 
+    <div class="footer">
+      <div class="foot-text">
+        2024 @ascii274 exercises.
+      </div>
+    </div>
+  </body>
 </html>
