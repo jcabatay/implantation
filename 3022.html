@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/muebles.css">
+    <!-- <link href="./css/index-responsive.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> 
+    
+    <title>Implantation</title>
+    <style>	
+      .html-elements{			
+        color: blue;
+        font-size: 16px;
+        /* google font: Cairo */						
+        font-family: Cairo, monospace; 
+        text-align: justify;
+        border-width: 1px;			
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;			
+        width: 500px;
+        border-radius: 5px;
+      }
+      
+      .smaller-image{
+        width: 80px;		
+      }
+      
+      .index-image{        
+        width: 260px;		
+        height: 138px;    
+        
+      }
+
+      .thick-green-border{
+        border-color: white;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 50%;
+      }
+      
+      .card {
+        border: 0;
+        border-radius: 0;
+        color: #fff;
+        height:100%;
+        object-fit:cover; /* contain or cover */
+        box-shadow: 5px 5px 10px #e1e1e1;
+        padding: 2em 0;
+        border-bottom-right-radius: 4em;
+        border-top-left-radius: 4em;
+        /* background: linear-gradient(to left, teal 50%, #26282b 50%); */
+        /* background-size: 200%; */
+        /* background-position: right; */
+        transition: background-position 0.5s ease-out;
+      }
+
+      .text-underline-hover {
+        text-decoration: none;
+      }
+
+      .text-underline-hover:hover {
+        text-decoration: underline;
+      }
+           
+      #thumbnail{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+
+      .card:hover{
+        transform: scale(1.05);
+        /* background-color: #fff; */
+        transition-duration: 0.2s;
+        
+      }
+    </style>
+
+  </head>
+
+  <body class="p-3 mt-4 border-0 ">
+
+    <!-- menu -->
+    <nav class="navbar bg-light fixed-top">
+      <div class="container">        
+        
+        <p class="card-text fs-6 fw-light text-body text-muted">&nbsp;</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <!-- <small class="offcanvas-title text-muted fw-light text-body" id="offcanvasNavbarLabel">Updated: 20/09/2022</small> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./alimentacion.html">T510 Alimentación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bebida.html">T510 Bebida</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- presentation -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 border">
+          <p class="text-center fs-1 font-monospace text-muted">T510 Mueble 3022</p>
+        </div>        
+      </div>
+    </div>
+    
+    <!-- ESTANTERIA 1 -->
+    <div class="container mt-1">
+      <table class="table table-bordered">            
+            <tbody>
+              <tr>                    
+                  <td >
+                    <div class="text-center">
+                      <h3> Maltesers </h3>
+                      <h2>8184476 </h2>
+                      <h4>Facing 3</h4>
+                      <img height="150" src="images/no-image.jpg">
+                    
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> Maltesers </h3>
+                      <h2> 8184395 </h2>
+                      <h4>Facing: 3</h4>                
+                      <img height="150" src="images/no-image.jpg">
+                    </div>
+
+                  </td>
+                </tr>                         
+            </tbody>
+        </table>
+  </div> 
+    
+    <!-- Estanteria 2  -->
+    <div class="container mt-1">
+      <table class="table table-bordered">            
+            <tbody>
+              <tr>                    
+                  <td >
+                    <div class="text-center">
+                      <h3> MILKA Moments Alpine </h3>
+                      <h2>5373901 </h2>
+                      <h4>Facing 2</h4>
+                      <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1679666758/3339988/3339988_1_en_GB.jpg">
+                    
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> MILKA Moments</h3>
+                      <h2> 5373927 </h2>
+                      <h4>Facing: 2</h4>                
+                      <img height="150" src="images/no-image.jpg">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> MILKA Moments</h3>
+                      <h2> 5373919 </h2>
+                      <h4>Facing: 2</h4>                
+                      <img height="150" src="images/no-image.jpg">
+                    </div>
+                  </td>
+                </tr>                         
+            </tbody>
+        </table>
+  </div>   
+
+  <!-- ESTANTERIA 3 -->
+  <div class="container mt-1">
+    <table class="table table-bordered">            
+          <tbody>
+            <tr>                    
+                <td >
+                  <div class="text-center">
+                    <h3> Walkers Shortbread Chocolate Chip </h3>
+                    <h2>7358452 </h2>
+                    <h4>Facing: 2</h4>
+                    <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1690820135/5226783/5226783_1_en_GB.png">
+                  </div>
+                </td>
+                <td>
+                  <div class="text-center">
+                    <h3> Walkers Shortbread H </h3>
+                    <h2> 7354033 </h2>
+                    <h4>Facing: 2</h4>                                   
+                    <img height="150" src="images/no-image.jpg">                      
+                  </div>
+                </td>
+                <td>
+                  <div class="text-center">
+                    <h3> Walkers Shortbread O </h3>
+                    <h2> 7354067 </h2>
+                    <h4>Facing: 2</h4>                                   
+                    <img height="150" src="images/no-image.jpg">                      
+                  </div>
+                </td>
+                <td>
+                  <div class="text-center">
+                    <h3> Walkers Shortbread S </h3>
+                    <h2> 7354041 </h2>
+                    <h4>Facing: 2</h4>                                   
+                    <img height="150" src="images/no-image.jpg">                      
+                  </div>
+                </td>
+                <td>
+                  <div class="text-center">
+                    <h3> Walkers Shortbread S </h3>
+                    <h2> 7358446 </h2>
+                    <h4>Facing: 2</h4>                                   
+                    <img height="150" src="images/no-image.jpg">                      
+                  </div>
+                </td>
+              </tr>                     
+          </tbody>
+      </table>
+  </div>   
+  <!-- ESTANTERIA 4 -->
+  <div class="container mt-1">
+    <table class="table table-bordered">            
+          <tbody>
+            <tr>                    
+                <td >
+                  <div class="text-center">
+                    <h3> Oreo  Tin 9x44g  </h3>
+                    <h2>9030220 </h2>
+                    <h4>Facing: 3</h4>
+                    <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1703692920/2289807/2289807_1_en_GB.jpg">
+                  </div>
+                </td>
+                <td>
+                  <div class="text-center">
+                    <h3> Kinder Bueno  </h3>
+                    <h2> 5473004 </h2>
+                    <h4>Facing: 2</h4>                                   
+                    <img height="250" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1707257539/1912008/1912008_1_en_GB.png">                      
+                  </div>
+                </td>
+                
+              </tr>                     
+          </tbody>
+      </table>
+  </div>   
+
+    <!-- ESTANTERIA 5 -->
+    <div class="container mt-1">
+      <table class="table table-bordered">            
+            <tbody>
+              <tr>                    
+                  <td >
+                    <div class="text-center">
+                      <h3> Nestle Dark Chocolate  </h3>
+                      <h2>4803949 </h2>
+                      <h4>Facing: 1</h4>
+                      <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1633694669/2230403/2230403_1_en_GB.jpg">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> Nestle Chocolate Fruit  </h3>
+                      <h2>2163287001 </h2>
+                      <h4>Facing: 1</h4>                                   
+                      <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1633694651/2230400/2230400_1_en_GB.jpg">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> Nestle Milk Chocolate  </h3>
+                      <h2>2012912001 </h2>
+                      <h4>Facing: 1</h4>                                   
+                      <img height="150" src="https://images.shopdutyfree.com/image/upload/c_pad,f_auto,h_542,w_542/v1633694632/2230398/2230398_1_en_GB.jpg">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> Nestle Milk  </h3>
+                      <h2>2012890001 </h2>
+                      <h4>Facing: 1</h4>                                   
+                      <img height="150" src="images/no-image.jpg">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-center">
+                      <h3> Nestle White  </h3>
+                      <h2>5239990  </h2>
+                      <h4>Facing: 1</h4>                                   
+                      <img height="150" src="images/no-image.jpg">
+                    </div>
+                  </td>
+                </tr>                     
+            </tbody>
+        </table>
+    </div>   
+
+
+
+
+
+    <div class="footer">
+      <div class="foot-text">
+        2024 @ascii274 exercises.
+      </div>
+    </div>
+  </body>
+</html>
